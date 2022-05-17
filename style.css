@@ -1,0 +1,69 @@
+.image {display: flex;
+	justify-content: center;
+}
+
+#can {
+	display: block;
+	position: relative;
+	top: 350px;
+	z-index: 1;
+	height: 120px;
+
+	margin: 0px 10px;
+}
+#btn {
+	display: block;
+	position: absolute;
+	left: 35%;
+	top: 35%;
+	z-index: 2;
+	}
+
+#canvas{position: absolute;
+	top: 0px;
+	z-index: 1;
+}
+ .button {padding: 80px 100px;
+ 	background-image: url(image/bgstart.png);
+ 	background-repeat: repeat;
+ 	background-position: center;
+
+ 	border-radius: 10px;
+ 	border-color: #EAD39C;
+ }
+
+.button button {background-color: #FF6D8D;
+border-radius: 5px;
+color: #ffffff;
+border: none;
+padding: 10px 25px;
+font-weight: 600;
+font-size: 32px;}
+
+/*.btn {display: none;}
+
+.btn .btnactive {display: block;}*/
+
+.image img {
+	display: none;
+}
+
+.image .active{position: relative;
+	top: 400px;
+	z-index: 1;
+	display: block;
+}
+
+.bg  {display: block;
+}
+
+.bgimg img {display: none;
+z-index: 0;}
+
+.bgimg .bgactive {position: absolute;
+	top: 0px;
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+}
